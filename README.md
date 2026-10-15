@@ -3,7 +3,7 @@ Linq to IPC over Kestrel Named Pipes to wrap Avanlonia/Skia canvas API
 
 # Sample
 For example, run this in LinqPad
-```
+```csharp
 await using var p = Paintier.Connect();
 var s = p.Shapes();
 
